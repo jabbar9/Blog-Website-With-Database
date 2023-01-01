@@ -52,7 +52,7 @@ app.post("/compose", function(req, res){
   post.save(function(err) {
     if(!err) {
       res.redirect("/");
-    }
+    } 
   });
   // posts.push(post);
 
